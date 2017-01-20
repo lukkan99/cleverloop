@@ -1,6 +1,6 @@
 from cleverbot import Cleverbot
 from time import sleep
-cb = Cleverbot()
+cb = Cleverbot('cleverloop')
 iask = (cb.ask("hi"))
 
 while True:
